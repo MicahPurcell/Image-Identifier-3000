@@ -30,6 +30,6 @@ function gotResults(error, results){
     } else {
         console.log(results)
         document.getElementById('objectName').innerHTML=results[0].label;
-        document.getElementById('objectAccuracy').innerHTML=results[0].confience;
+        document.getElementById('objectAccuracy').innerHTML=results[0].confidence;
     }
 }
